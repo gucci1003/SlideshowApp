@@ -84,7 +84,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="V3S-pg-45e">
                     <connections>
-                        <action selector="zoom:" destination="BYZ-38-t0r" id="S49-VT-H8t"/>
                         <segue destination="b51-n7-Lid" kind="show" id="X2N-mO-ATL"/>
                     </connections>
                 </tapGestureRecognizer>

@@ -86,6 +86,21 @@ class ViewController: UIViewController {
         // 遷移先のzoomViewControllerで宣言しているzoomImageNoに値を代入して渡す
         zoomViewController.zoomImageNo = dispImageNo
         
+        // タイマーが動作している場合、
+        if self.timer != nil {
+            
+            // 現在のタイマーを破棄する
+            self.timer.invalidate()
+            
+            // 初期状態に戻す
+            self.timer = nil
+            
+            // ボタンも元に戻す
+            prev.isEnabled = true
+            nextbutton.isEnabled = true
+            playpause.setTitle("再生", for: .normal)
+        
+        }
     }
     
     
@@ -185,29 +200,6 @@ class ViewController: UIViewController {
             
         }
     }
-    
-
-    // 画像拡大画面に遷移する際にタイマーが止まるようにする　★ここが全体的に読み込まれていない
-    @IBAction func zoom(_ sender: Any) {
-
-        // タイマーが動作している場合、
-        if self.timer != nil {
-     
-            // 現在のタイマーを破棄する
-            self.timer.invalidate()
-            
-            // 初期状態に戻す
-            self.timer = nil
-            
-            // ボタンも元に戻す
-            prev.isEnabled = true
-            nextbutton.isEnabled = true
-            playpause.setTitle("再生", for: .normal)
-            
-        }
-        
-    }
-    
     
     
     // 遷移先から戻ってこれるようにする
