@@ -14,6 +14,11 @@
 		C876FA241FDE311500B4F0D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C876FA221FDE311500B4F0D5 /* LaunchScreen.storyboard */; };
 		C876FA2F1FDE311500B4F0D5 /* SlideshowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C876FA2E1FDE311500B4F0D5 /* SlideshowAppTests.swift */; };
 		C876FA3A1FDE311500B4F0D5 /* SlideshowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C876FA391FDE311500B4F0D5 /* SlideshowAppUITests.swift */; };
+		C876FA541FDE5BF700B4F0D5 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C876FA531FDE5BF600B4F0D5 /* ZoomViewController.swift */; };
+		C876FA5A1FDF8BA600B4F0D5 /* lake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C876FA551FDF8BA600B4F0D5 /* lake.jpg */; };
+		C876FA5C1FDF8BA600B4F0D5 /* mountain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C876FA571FDF8BA600B4F0D5 /* mountain.jpg */; };
+		C876FA5D1FDF8BA600B4F0D5 /* city.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C876FA581FDF8BA600B4F0D5 /* city.jpg */; };
+		C876FA601FDF8E7500B4F0D5 /* sea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C876FA5F1FDF8E7500B4F0D5 /* sea.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		C876FA351FDE311500B4F0D5 /* SlideshowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideshowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C876FA391FDE311500B4F0D5 /* SlideshowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowAppUITests.swift; sourceTree = "<group>"; };
 		C876FA3B1FDE311500B4F0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C876FA531FDE5BF600B4F0D5 /* ZoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
+		C876FA551FDF8BA600B4F0D5 /* lake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lake.jpg; sourceTree = "<group>"; };
+		C876FA571FDF8BA600B4F0D5 /* mountain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mountain.jpg; sourceTree = "<group>"; };
+		C876FA581FDF8BA600B4F0D5 /* city.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = city.jpg; sourceTree = "<group>"; };
+		C876FA5F1FDF8E7500B4F0D5 /* sea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sea.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +107,14 @@
 		C876FA181FDE311500B4F0D5 /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				C876FA551FDF8BA600B4F0D5 /* lake.jpg */,
+				C876FA571FDF8BA600B4F0D5 /* mountain.jpg */,
+				C876FA581FDF8BA600B4F0D5 /* city.jpg */,
+				C876FA5F1FDF8E7500B4F0D5 /* sea.jpg */,
 				C876FA191FDE311500B4F0D5 /* AppDelegate.swift */,
 				C876FA1B1FDE311500B4F0D5 /* ViewController.swift */,
 				C876FA1D1FDE311500B4F0D5 /* Main.storyboard */,
+				C876FA531FDE5BF600B4F0D5 /* ZoomViewController.swift */,
 				C876FA201FDE311500B4F0D5 /* Assets.xcassets */,
 				C876FA221FDE311500B4F0D5 /* LaunchScreen.storyboard */,
 				C876FA251FDE311500B4F0D5 /* Info.plist */,
@@ -233,8 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C876FA241FDE311500B4F0D5 /* LaunchScreen.storyboard in Resources */,
+				C876FA5C1FDF8BA600B4F0D5 /* mountain.jpg in Resources */,
+				C876FA5A1FDF8BA600B4F0D5 /* lake.jpg in Resources */,
+				C876FA601FDF8E7500B4F0D5 /* sea.jpg in Resources */,
 				C876FA211FDE311500B4F0D5 /* Assets.xcassets in Resources */,
 				C876FA1F1FDE311500B4F0D5 /* Main.storyboard in Resources */,
+				C876FA5D1FDF8BA600B4F0D5 /* city.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C876FA1C1FDE311500B4F0D5 /* ViewController.swift in Sources */,
+				C876FA541FDE5BF700B4F0D5 /* ZoomViewController.swift in Sources */,
 				C876FA1A1FDE311500B4F0D5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
